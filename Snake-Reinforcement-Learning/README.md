@@ -19,4 +19,4 @@ QLearning.py will automatically animate some samples games at various stages of 
 
 See below for example games using the Q matrix at various stages in the training process.
 
-![](DS/Snake-Reinforcement-Learning/Images/AnimatedGames.gif)
+![](/DS/Snake-Reinforcement-Learning/Images//AnimatedGames.gif)
