@@ -1,0 +1,20 @@
+projectid: 'liquid-folio-338503'
+staging_bucket_name: 'usmedpent-shareddata-chfcode-dev'
+runner: "DataflowRunner"
+save_main_session: true
+region: 'us-east4'
+requirements_file: './requirements.txt'
+jobname: 'cdr-reconcile-interim-to-final-fhir'
+worker_zone: 'us-east4-a'
+worker_machine_type: 'n1-standard-1'
+worker_disk_type: 'compute.googleapis.com/projects//zones//diskTypes/pd-ssd'
+disk_size_gb: '30'
+stage_bucket: ''
+subscription: ''
+dataflow_staging: ''
+tempbucket: ''
+template_location: ''
+subnetwork: ''
+service_account_name: ''
+
+
